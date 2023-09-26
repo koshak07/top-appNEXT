@@ -1,0 +1,18 @@
+.h1 {
+  font-size: 26px;
+  font-family: Noto Sans;
+  font-weight: 500;
+  margin: 0;
+}
+.h2 {
+  font-size: 22px;
+  font-family: Noto Sans;
+  font-weight: 500;
+  margin: 0;
+}
+.h3 {
+  font-size: 20px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  margin: 0;
+}
