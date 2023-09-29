@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Htag } from "@/components";
+import { Htag } from "../components";
 import React from "react";
-import { Button } from "@/components";
+import { Button } from "../components";
+import { P } from "../components";
 export default function Home(): JSX.Element {
   return (
     <>
@@ -11,6 +12,9 @@ export default function Home(): JSX.Element {
         Кнопка
       </Button>
       <Button appearance='ghost'>Кнопка</Button>
+      <P size='s'>Маленький</P>
+      <P size='m'>Cредний</P>
+      <P size='l'>Большой</P>
     </>
   );
 }
